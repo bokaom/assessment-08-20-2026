@@ -1,0 +1,16 @@
+START
+
+INPUT kabelo sepai
+INPUT score:74
+INPUT passMark:60
+
+IF score 60>74= passMark THEN
+    74 = Pass
+ELSE
+    59 = Fail
+END IF
+
+OUTPUT : kabelo sepai
+OUTPUT : Pass
+
+END
